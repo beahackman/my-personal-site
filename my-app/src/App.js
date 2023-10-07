@@ -9,14 +9,13 @@ import ForFun from './pages/forFun';
 import Projects from './pages/projects';
 import Resume from './pages/resume';
 
-
 function App() {
   return (
     <div className="App">
       <Router>
             <Navbar />
             <Routes>
-                <Route exact path='/' element={<Home />} />
+                <Route exact path='/my-personal-site' element={<Home />} />
                 <Route path='/aboutMe' element={<AboutMe />} />
                 <Route path='/forFun' element={<ForFun />} />
                 <Route path='/projects' element={<Projects />} />

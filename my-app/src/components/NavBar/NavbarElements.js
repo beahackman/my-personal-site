@@ -1,18 +1,17 @@
-import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
  
 export const Nav = styled.nav`
-  background: #ffb3ff;
   height: 85px;
   display: flex;
   justify-content: space-between;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
+  padding: 0 5vw 0 5vw;
   z-index: 12;
+  background: #E3E3F1;
 `;
  
 export const NavLink = styled(Link)`
-  color: #808080;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -20,34 +19,43 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #4d4dff;
+    color: #040484;
+    font-weight: bold;
+  };
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  @media (min-width: 768px) {
+    flex-direction: column;
   }
 `;
- 
-export const Bars = styled(FaBars)`
-  display: none;
-  color: #808080;
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
+
+export const MainCluster = styled.div`
+  display: flex;
+  flex-direction: row;
 `;
  
 export const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: -24px;
-  /* Second Nav */
-  /* margin-right: 24px; */
-  /* Third Nav */
-  /* width: 100vw;
-white-space: nowrap; */
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
   @media screen and (max-width: 768px) {
     display: none;
+  }
+`;
+
+export const NavMobile = styled.div`
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 30px;
   }
 `;

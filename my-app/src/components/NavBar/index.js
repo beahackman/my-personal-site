@@ -1,27 +1,25 @@
-import React from "react";
-import { Nav, NavLink, NavMenu }
-    from "./NavbarElements";
+import React, {useState} from "react";
+import { Link, NavLink } from "react-router-dom";
+import {Menu, HomeRounded} from "grommet-icons";
+import "./NavBar.css";
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <>
-            <Nav>
-                <NavMenu>
-                    <NavLink to="/aboutMe" activeStyle>
-                        About Me
-                    </NavLink>
-                    <NavLink to="/forFun" activeStyle>
-                        For Fun
-                    </NavLink>
-                    <NavLink to="/projects" activeStyle>
-                        Projects
-                    </NavLink>
-                    <NavLink to="/resume" activeStyle>
-                        Resume
-                    </NavLink>
-                </NavMenu>
-            </Nav>
-        </>
+        <nav>
+            <Link to='/my-personal-site' className="landing-link"><HomeRounded color="#040484"/></Link>
+            <div className="mobileMenu" onClick={() => {
+                setMenuOpen(!menuOpen)
+            }}>
+                <Menu color="#040484"/>
+            </div>
+            <ul className={menuOpen ? "open" : ""}>
+                <li><NavLink to="/aboutMe">About Me</NavLink></li>
+                <li><NavLink to="/projects">Projects</NavLink></li>
+                <li><NavLink to="/resume">Resume</NavLink></li>
+                <li><NavLink to="/forFun">For Fun</NavLink></li>
+            </ul>
+        </nav>
     );
 };
 
