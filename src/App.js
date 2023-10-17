@@ -6,8 +6,11 @@ import { BrowserRouter as Router, Routes, Route }
 import Home from './pages';
 import AboutMe from './pages/aboutMe';
 import ForFun from './pages/forFun';
-import Projects from './pages/projects';
+import Projects from './pages/Projects/projects';
 import Resume from './pages/resume';
+import HPEProject from './pages/Projects/ProjectPages/HPEProject';
+import SPEKSProject from './pages/Projects/ProjectPages/SPEKSProject';
+import ACMWProject from './pages/Projects/ProjectPages/ACMWProject';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
                 <Route path='/aboutMe' element={<AboutMe />} />
                 <Route path='/forFun' element={<ForFun />} />
                 <Route path='/projects' element={<Projects />} />
+                  <Route path='/projects/automated-update-alert-system' element={<HPEProject />} />
+                  <Route path='/projects/speks-project' element={<SPEKSProject />} />
+                  <Route path='/projects/acm-w-site' element={<ACMWProject/>} />            
                 <Route path='/resume' element={<Resume />} />
             </Routes>
         </Router>

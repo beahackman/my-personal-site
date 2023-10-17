@@ -1,9 +1,13 @@
 import React from "react";
+import "./Resume.css";
+import "./index.css";
+import PageHeader from "../components/PageHeader";
 
 const Resume = () => {
     return(
         <>
-        <h1>This is my resume</h1>
+            <PageHeader icon={''} pageName={'Resume'}/>
+            <h1>Under construction 🏗️</h1>
         </>
     )
 }

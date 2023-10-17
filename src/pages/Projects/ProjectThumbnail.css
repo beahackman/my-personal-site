@@ -1,0 +1,33 @@
+.thumbNailContainer{
+    background-color:#F8F7F4;
+    width: 60vw;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px;
+    border-radius: 40px;
+}
+
+.thumbNailContainer img{
+    width: 25vw;
+}
+
+.thumbNailContainer section{
+    width: 40vw;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.thumbNailContainer section h2{
+    font-size: min(3vw, 2rem);
+}
+
+.thumbNailContainer section h3{
+    font-size: min(2.5vw, 1.5srem);
+}
+
+.thumbNailContainer:hover{
+    box-shadow: 7px 7px 41px -14px rgba(99,99,99,0.5);
+    text-decoration: underline;
+}

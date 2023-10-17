@@ -1,5 +1,8 @@
 import React from 'react';
 import Portrait from ".//portrait.jpg";
+import "./index.css";
+import { DocumentDownload, LinkedinOption, MailOption } from 'grommet-icons';
+import Resume from "../components/BHackmanResume.pdf";
 
 const Home = () => {
     const mainSection = {
@@ -8,11 +11,10 @@ const Home = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#E3E3F1",
         flexWrap: "wrap",
     }
     const portraitStyle = {
-        border: "10px solid #7373BA",
+        border: "15px solid rgba(122, 158, 126, 0.11)",
         borderRadius:"300px",
         width: "350px",
       };
@@ -31,18 +33,6 @@ const Home = () => {
         color: "#040484",
         margin: "0"
     }
-    const purpleBackground = {
-        backgroundColor:"green",
-        height: "10vh",
-        zIndex: "-1"
-    }
-    const personalBlurb = {
-        zIndex: "2",
-        backgroundColor: "red",
-        marginTop: "0",
-        marginBottom: "0",
-        height: "15vh",
-    }
     return (
         <>
         <div style={mainSection}>
@@ -56,12 +46,38 @@ const Home = () => {
                 <h4 style={subCategory}>Math Tutor</h4>
             </section>
         </div>
-        {/* <div style={{height: "20vh"}}>
-            <section style={purpleBackground}></section>
-            <div style={personalBlurb}>
-                <p>This is a blurb about me haha so on and so forth</p>
-            </div>
-        </div> */}
+        <div className="landingBody">
+            <section className="quickBio">
+                <p>Hey 👋 My name is Beatrice and I’m a third-year 
+                Web Design and Engineering major at Santa Clara University. 
+                I have a passion for innovation, a track record of leadership, countless projects, 
+                and aspirations to be a full-time UI/UX Developer. 
+                Have a look at my site to check some of it out!</p>
+            </section>
+            <section  className="quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <div className="iconBlock"><DocumentDownload /></div>
+                        <a href={Resume} download="HackmanResume" target="_blank" rel="noreferrer">
+                            Download My Resume
+                        </a>
+                    </li>
+                    <li>
+                        <div className="iconBlock"><LinkedinOption /></div>
+                        <a href='https://www.linkedin.com/in/beatrice-hackman-1747b317a/'>
+                            LinkedIn Profile
+                        </a>
+                    </li>
+                    <li>
+                        <div className="iconBlock"><MailOption /></div>
+                        <a href="mailto:hackmanbeatrice@gmail.com">
+                            hackmanbeatrice@gmail.com
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
         </>
     );
 };

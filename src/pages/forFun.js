@@ -1,9 +1,11 @@
 import React from "react";
+import PageHeader from "../components/PageHeader";
 
 const ForFun = () => {
     return(
         <>
-        <h1>This is my For Fun</h1>
+        <PageHeader pageName={'For Fun'}/>
+        <h1>Under construction 🏗️</h1>
         </>
     )
 }

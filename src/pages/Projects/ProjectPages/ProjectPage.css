@@ -1,0 +1,18 @@
+.projectPageContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.backButton{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 254, 254, 0.59);
+    border-radius: 50%;
+    margin-right: 60px;
+}
