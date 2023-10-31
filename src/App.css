@@ -6,6 +6,7 @@
   width: 100%;
   padding: none;
   margin: none;
+  background: #E4E4F2;
   background-image: url(pictures/meshBackground.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,10 +18,3 @@
 
 }
 
-.App::before{
-  background-color: #E4E4F2;
-  display: block;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}

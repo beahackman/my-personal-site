@@ -1,10 +1,18 @@
 .projectPageContainer{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 80vw;
+}
+
+.projectPageContainer .projectPageHead{
+    display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
+
 .backButton{
     display: flex;
     padding: 1rem;
@@ -15,4 +23,66 @@
     background-color: rgba(255, 254, 254, 0.59);
     border-radius: 50%;
     margin-right: 60px;
+}
+
+.projectPageContainer .openingVisual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F8F7F4;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 10vw;
+}
+
+.projectPageContainer .openingVisual section{
+    width: max(45%, 300px);
+    font-size: 1.25rem;
+    padding: 10px;
+    text-align: start;
+}
+
+.projectPageContainer .openingVisual img{
+    width: max(35%, 200px);
+    /* max-width: 40%;
+    flex-grow: 1; */
+    padding: 10px;
+}
+
+.whyHowSection{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 80vw;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.whyHowSection section{
+    background-color: #F8F7F4;
+    width: 200px;
+    margin-bottom: 20px;
+    color: #53539D;
+    border-radius: 40px;
+}
+
+.whyHowSection main{
+    display: flex;
+    flex-direction: column;
+}
+.whyHowSection p{
+    background-color: #F8F7F4;
+    width: min(900px, 60vw);
+    padding: 30px;
+    border-radius: 40px;
+    margin: 0 20px 20px 20px;
+    font-size: 1.2rem;
+}
+
+.HowImgInText{
+    width: 80%;
+    margin-top: 30px;
+    border: solid 4px rgba(4, 4, 132, 0.2);
+    border-radius: 12px;
 }
