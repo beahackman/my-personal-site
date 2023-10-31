@@ -1,21 +1,35 @@
 {
   "files": {
-    "main.css": "/my-personal-site/static/css/main.6c5eada5.css",
-    "main.js": "/my-personal-site/static/js/main.13e08950.js",
+    "main.css": "/my-personal-site/static/css/main.9f20fd3e.css",
+    "main.js": "/my-personal-site/static/js/main.ae34caaa.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-personal-site/static/js/787.28cb0dcd.chunk.js",
+    "static/media/functioningVideo.mov": "/my-personal-site/static/media/functioningVideo.23029269e553041d894e.mov",
     "static/media/portrait.jpg": "/my-personal-site/static/media/portrait.7df0662439d89a94aa00.jpg",
     "static/media/meshBackground.png": "/my-personal-site/static/media/meshBackground.b53e458e4819764bb336.png",
+    "static/media/SectionLevelNotif.png": "/my-personal-site/static/media/SectionLevelNotif.8ac8bf4244220f9cf778.png",
+    "static/media/ChangeLog.png": "/my-personal-site/static/media/ChangeLog.edb9370c6308d785aaf2.png",
+    "static/media/InlineNotif.png": "/my-personal-site/static/media/InlineNotif.0c8e0770baf6661ff78e.png",
+    "static/media/Gameplay.png": "/my-personal-site/static/media/Gameplay.1c1197bbe0d05e8861fe.png",
     "static/media/BHackmanResume.pdf": "/my-personal-site/static/media/BHackmanResume.48b9b917d855e98b21d9.pdf",
+    "static/media/firstIteration.png": "/my-personal-site/static/media/firstIteration.12a89653d9e249484044.png",
+    "static/media/midIteration.png": "/my-personal-site/static/media/midIteration.f43a24a7a76570852d9d.png",
+    "static/media/SupportPage.png": "/my-personal-site/static/media/SupportPage.e5a4234376f005e117f5.png",
+    "static/media/LandingPage.png": "/my-personal-site/static/media/LandingPage.f1449f74dfe4bb313db0.png",
+    "static/media/NavNotif.png": "/my-personal-site/static/media/NavNotif.d510dff1e884b3559fdc.png",
+    "static/media/NotificationGuidance.png": "/my-personal-site/static/media/NotificationGuidance.27648c0f3c736319f905.png",
     "static/media/ACMWProject.png": "/my-personal-site/static/media/ACMWProject.a30a664983ff30ea2cab.png",
+    "static/media/recentIteration.png": "/my-personal-site/static/media/recentIteration.8f02d33430abad239dce.png",
     "static/media/SPEKSProject.png": "/my-personal-site/static/media/SPEKSProject.d094e945643dd2c3222e.png",
     "static/media/HPEProject.png": "/my-personal-site/static/media/HPEProject.d623b7135a981856e5d0.png",
+    "static/media/SearchResults.png": "/my-personal-site/static/media/SearchResults.7ad0741523b5d75f9d62.png",
+    "static/media/ThumbnailPhoto.png": "/my-personal-site/static/media/ThumbnailPhoto.b91eb9ddac9d493867e2.png",
     "index.html": "/my-personal-site/index.html",
-    "main.6c5eada5.css.map": "/my-personal-site/static/css/main.6c5eada5.css.map",
-    "main.13e08950.js.map": "/my-personal-site/static/js/main.13e08950.js.map",
+    "main.9f20fd3e.css.map": "/my-personal-site/static/css/main.9f20fd3e.css.map",
+    "main.ae34caaa.js.map": "/my-personal-site/static/js/main.ae34caaa.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c5eada5.css",
-    "static/js/main.13e08950.js"
+    "static/css/main.9f20fd3e.css",
+    "static/js/main.ae34caaa.js"
   ]
 }
