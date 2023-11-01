@@ -5,6 +5,7 @@ import PageHeader from '../../../components/PageHeader';
 import { HPEHow } from './HPEProject';
 import { SPEKSHow } from './SPEKSProject';
 import { ACMWHow } from './ACMWProject';
+import { SecondLifeProjectHow } from './SecondLifeProject';
 
 export const ProjectPageHead = ({pagename}) => {
     return(
@@ -53,6 +54,7 @@ export const HowSection = ({pagename}) => {
                 {pagename === 'HPE' && <HPEHow />}
                 {pagename === 'SPEKS' && <SPEKSHow />}
                 {pagename === 'ACMW' && <ACMWHow/>}
+                {pagename === 'SecondLife' && <SecondLifeProjectHow />}
                 {/* add other pages here */}
             </main>
         </div>

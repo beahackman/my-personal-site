@@ -15,6 +15,11 @@ const projectInfo = [
         company: "SCU Women in Computing",
         time: "December 2022",
     },
+    {
+        name: "Second Life Project",
+        company: "Web Usability Lab",
+        time: "April 2023",
+    }
 ]
 
 export default projectInfo;

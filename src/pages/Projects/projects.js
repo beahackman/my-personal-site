@@ -14,7 +14,6 @@ const Projects = () => {
          <PageHeader pageName={'Projects'} />
          {projectInfo.map((project) => {
             const name = toSlug(project.name);
-            console.log(name);
             return(
                 <NavLink to={`/projects/` + name}>
                     <ProjectThumbnail name={project.name} company={project.company} time={project.time}/>

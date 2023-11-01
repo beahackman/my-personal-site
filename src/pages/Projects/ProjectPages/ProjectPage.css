@@ -45,8 +45,6 @@
 
 .projectPageContainer .openingVisual img{
     width: max(35%, 200px);
-    /* max-width: 40%;
-    flex-grow: 1; */
     padding: 10px;
 }
 
