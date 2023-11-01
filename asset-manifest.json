@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-personal-site/static/css/main.9f20fd3e.css",
-    "main.js": "/my-personal-site/static/js/main.ae34caaa.js",
+    "main.js": "/my-personal-site/static/js/main.3134df61.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-personal-site/static/js/787.28cb0dcd.chunk.js",
     "static/media/functioningVideo.mov": "/my-personal-site/static/media/functioningVideo.23029269e553041d894e.mov",
     "static/media/portrait.jpg": "/my-personal-site/static/media/portrait.7df0662439d89a94aa00.jpg",
@@ -10,6 +10,7 @@
     "static/media/ChangeLog.png": "/my-personal-site/static/media/ChangeLog.edb9370c6308d785aaf2.png",
     "static/media/InlineNotif.png": "/my-personal-site/static/media/InlineNotif.0c8e0770baf6661ff78e.png",
     "static/media/Gameplay.png": "/my-personal-site/static/media/Gameplay.1c1197bbe0d05e8861fe.png",
+    "static/media/SecondLifeProject.png": "/my-personal-site/static/media/SecondLifeProject.b08c95e21987c5b42fad.png",
     "static/media/BHackmanResume.pdf": "/my-personal-site/static/media/BHackmanResume.48b9b917d855e98b21d9.pdf",
     "static/media/firstIteration.png": "/my-personal-site/static/media/firstIteration.12a89653d9e249484044.png",
     "static/media/midIteration.png": "/my-personal-site/static/media/midIteration.f43a24a7a76570852d9d.png",
@@ -25,11 +26,11 @@
     "static/media/ThumbnailPhoto.png": "/my-personal-site/static/media/ThumbnailPhoto.b91eb9ddac9d493867e2.png",
     "index.html": "/my-personal-site/index.html",
     "main.9f20fd3e.css.map": "/my-personal-site/static/css/main.9f20fd3e.css.map",
-    "main.ae34caaa.js.map": "/my-personal-site/static/js/main.ae34caaa.js.map",
+    "main.3134df61.js.map": "/my-personal-site/static/js/main.3134df61.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-personal-site/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f20fd3e.css",
-    "static/js/main.ae34caaa.js"
+    "static/js/main.3134df61.js"
   ]
 }
