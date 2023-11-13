@@ -7,7 +7,7 @@ import Home from './pages';
 import AboutMe from './pages/AboutMe/aboutMe';
 import ForFun from './pages/forFun';
 import Projects from './pages/Projects/projects';
-import Resume from './pages/resume';
+import Resume from './pages/Resume/resume';
 import HPEProject from './pages/Projects/ProjectPages/HPEProject';
 import SPEKSProject from './pages/Projects/ProjectPages/SPEKSProject';
 import ACMWProject from './pages/Projects/ProjectPages/ACMWProject';
