@@ -23,8 +23,7 @@ const AboutMe = () => {
             <br></br>
             Off campus, I love to lift, hike, make films, take photos and
             travel. My favorite place so far has to be South Korea because of
-            the food and late night Karaoke! (Go check out some photos on my
-            “For Fun” page)
+            the food and late night Karaoke!
             <div className="blueBar"></div>
           </p>
           <img
@@ -35,6 +34,7 @@ const AboutMe = () => {
               margin: "0 20px 20px 20px",
             }}
             src={funPortrait}
+            alt="Me at a antique shop"
           ></img>
         </section>
         <section>
@@ -46,6 +46,7 @@ const AboutMe = () => {
               margin: "0 20px 20px 20px",
             }}
             src={H4HPhoto}
+            alt="My team and I at Hack for Humanity"
           ></img>
           <p>
             My major has opened doors to diverse learning experiences. I dove
@@ -98,6 +99,7 @@ const AboutMe = () => {
               margin: "0 20px 20px 20px",
             }}
             src={GraceHopper}
+            alt="Me at the 2023 Grace Hopper Conference"
           ></img>
         </section>
       </div>

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     width: 80vw;
 }
 
@@ -40,7 +40,7 @@
     width: max(45%, 300px);
     font-size: 1.25rem;
     padding: 10px;
-    text-align: start;
+    text-align: flex-start;
 }
 
 .projectPageContainer .openingVisual img{
@@ -50,7 +50,7 @@
 
 .whyHowSection{
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     width: 80vw;
     padding-top: 40px;
