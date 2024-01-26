@@ -43,7 +43,7 @@ const Home = () => {
                 </h1>
                 <h4 style={subCategory}>Industry Liaison</h4>
                 <h4 style={mainCategory}>Front-End Software Engineer</h4>
-                <h4 style={subCategory}>Math Tutor</h4>
+                <h4 style={subCategory}>Tutor</h4>
             </section>
         </div>
         <div className="landingBody">

@@ -15,7 +15,7 @@ const Projects = () => {
          {projectInfo.map((project) => {
             const name = toSlug(project.name);
             return(
-                <NavLink to={`/projects/` + name}>
+                <NavLink to={`/projects/` + name} style={{ textDecoration: 'none' }}>
                     <ProjectThumbnail name={project.name} company={project.company} time={project.time}/>
                 </NavLink>
             );

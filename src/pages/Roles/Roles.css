@@ -1,0 +1,41 @@
+#rolesThumbnail{
+    background-color:#F8F7F4;
+    width: 60vw;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:4vw;
+    border-radius: 40px;
+    flex-wrap: wrap;
+}
+
+#rolesThumbnail section{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    width: max(40vw, 400px);
+    padding: 0 2vw;
+}
+
+
+#rolesThumbnail img{
+    width: max(10vw, 200px);
+}
+
+#rolesThumbnail section h2, #rolesThumbnail section h3, #rolesThumbnail section p{
+    margin: 5px 0 0 0;
+    padding: none;
+    display: flex;
+    align-items: center;
+}
+
+.nowTag{
+    background-color: rgba(83, 83, 157, 1);
+    border-radius: 20px;
+    padding: 3px 8px;
+    font-size: 0.5em;
+    color: white;
+    margin-left: 1.5vw;
+}

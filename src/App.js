@@ -7,6 +7,7 @@ import Home from './pages';
 import AboutMe from './pages/AboutMe/aboutMe';
 import ForFun from './pages/forFun';
 import Projects from './pages/Projects/projects';
+import Roles from './pages/Roles/roles';
 import Resume from './pages/Resume/resume';
 import HPEProject from './pages/Projects/ProjectPages/HPEProject';
 import SPEKSProject from './pages/Projects/ProjectPages/SPEKSProject';
@@ -28,6 +29,7 @@ function App() {
                   <Route path='/projects/acm-w-site' element={<ACMWProject/>} />   
                   <Route path='/projects/second-life-project' element={<SecondLifeProject/>} />        
                 <Route path='/resume' element={<Resume />} />
+                {/* <Route path='/roles' element={<Roles />} /> */}
             </Routes>
         </Router>
     </div>
