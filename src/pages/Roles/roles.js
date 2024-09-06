@@ -2,7 +2,6 @@ import "./Roles.css";
 import React from "react";
 import PageHeader from "../../components/PageHeader";
 
-import GarminLogo from "./photos/GarminLogo.png";
 import HPELogo from "./photos/HPELogo.png";
 import VRLogo from "./photos/VRLogo.png";
 import TBPLogo from "./photos/TBPLogo.png";
@@ -10,28 +9,29 @@ import MLCLogo from "./photos/MLCLogo.png";
 import ACMWLogo from "./photos/ACMWLogo.png";
 import CVSLogo from "./photos/CVSLogo.png";
 import DSPLogo from "./photos/DSPLogo.png";
+import OracleLogo from "./photos/OracleLogo.png";
 
 const rolesInfo = [
   {
-    company: "Garmin",
-    role: "Software Engineering Intern",
+    company: "Oracle",
+    role: "UX Developer Intern",
     time: "Summer 2024",
     description:
-      "I'm excited to announce that this upcoming summer, I will be interning with Garmin as a Software Engineer!",
-    url: GarminLogo,
+      "This past summer I’ve had the amazing opportunity to intern as a UX Developer on the Oracle Design Engineering team. I spent my twelve weeks building a Spectra UI versioning control component from the ground up. I got to do this using/learning technologies such as Preact, Typescript, and Oracle JET.",
+    url: OracleLogo,
   },
   {
     company: "HPE",
     role: "UI/UX Development Intern",
     time: "Summer 2023",
-    description: "This summer I developed a semi-automated update feature with visitation tracking for the HPE Design System Site, eliminating the team's monthly manual update reporting. I actively shared updates in daily meetings and collaborated closely with a design intern, contributing insights to team projects. Skills: React, GitHub Rest API, Figma.",
+    description: "Summer of 2023, I developed a semi-automated update feature with visitation tracking for the HPE Design System Site, eliminating the team's monthly manual update reporting. I actively shared updates in daily meetings and collaborated closely with a design intern, contributing insights to team projects. Skills: React, GitHub Rest API, Figma.",
     url: HPELogo,
   },
   {
     company: "SCU Media Lab",
     role: "Research Intern",
     time: "January 2024 - Present",
-    description: "Test Test Test Test",
+    description: "As a researcher on the Imaginarium's Passthrough team, I help explore the social implications and user experiences related to VR's Passthrough mode. I conduct research trials, literature reviews, and data analysis to enhance qualities such as social presence and communication in the ever-growing world of Virtual Reality.",
     url: VRLogo,
   },
   {
@@ -92,9 +92,7 @@ const Roles = () => {
                 ||
                 role.role === "Web Usability Tutor"
                 ||
-                role.role === "Calculus Tutor"
-                ||
-                role.role === "Industry Liaison")
+                role.role === "Calculus Tutor")
                 &&
                 <text className="nowTag">current</text>
               }</h2>

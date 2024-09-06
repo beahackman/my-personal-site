@@ -29,7 +29,7 @@ function App() {
                   <Route path='/projects/acm-w-site' element={<ACMWProject/>} />   
                   <Route path='/projects/second-life-project' element={<SecondLifeProject/>} />        
                 <Route path='/resume' element={<Resume />} />
-                {/* <Route path='/roles' element={<Roles />} /> */}
+                <Route path='/roles' element={<Roles />} />
             </Routes>
         </Router>
     </div>

@@ -41,14 +41,14 @@ const Home = () => {
                 <h1 style={headerStyle}>
                     Beatrice Hackman
                 </h1>
-                <h4 style={subCategory}>Industry Liaison</h4>
-                <h4 style={mainCategory}>Front-End Software Engineer</h4>
-                <h4 style={subCategory}>Tutor</h4>
+                <h4 style={subCategory}>Academic Researcher</h4>
+                <h4 style={mainCategory}>Front-End Software Developer</h4>
+                <h4 style={subCategory}>Math and Web Dev Tutor</h4>
             </section>
         </div>
         <div className="landingBody">
             <section className="quickBio">
-                <p>Hey 👋 My name is Beatrice and I’m a third-year 
+                <p>Hey 👋 My name is Beatrice and I’m a fourth-year 
                 Web Design and Engineering major at Santa Clara University. 
                 I have a passion for innovation, a track record of leadership, countless projects, 
                 and aspirations to be a full-time UI/UX Developer. 

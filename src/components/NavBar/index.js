@@ -40,14 +40,14 @@ const Navbar = () => {
             Projects
           </NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink
             to="/roles"
             onClick={() => setMenuOpen((menuOpen) => !menuOpen)}
           >
             Roles
           </NavLink>
-        </li> */}
+        </li>
         <li>
           <NavLink
             to="/resume"

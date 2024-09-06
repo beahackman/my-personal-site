@@ -15,7 +15,7 @@ const AboutMe = () => {
         <section>
           <p>
             <div className="blueBar"></div>
-            Hi I’m Beatrice! I’m currently a third year Web Design and
+            Hi I’m Beatrice! I’m currently a fourth year Web Design and
             Engineering major at Santa Clara University. On campus, I’m a big
             part of the Women in Computing club and I’m also a tutor for the
             school’s Math Learning Center.
@@ -77,7 +77,7 @@ const AboutMe = () => {
             dimension to my approach.
             <br></br>
             <br></br>
-            Currently, I'm actively seeking internship and job opportunities in
+            Currently, I'm actively seeking job opportunities in
             any of these fields, because, to me, each new pursuit keeps me
             grounded in a holistic, empathetic, and user-centric mindset. If
             you're looking for someone who's not just passionate about
